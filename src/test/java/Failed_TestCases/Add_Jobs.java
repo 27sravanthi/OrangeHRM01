@@ -7,15 +7,13 @@ import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import CommonUtil.TestBrowser;
-
 public class Add_Jobs {
 	
 	  WebDriver driver;
 	  
 			String URL="https://opensource-demo.orangehrmlive.com/";
 			String Username="Admin", Password="admin123";
-			String JobTitle="Tester1", JobDicription="Testerdiscription1";
+			String JobTitle="Tester2", JobDicription="Testerdiscription2";
 			
 			 public   WebElement findElement(By by) throws Exception 
 				{
